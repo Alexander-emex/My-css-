@@ -1,0 +1,88 @@
+/* body{
+    padding: 0;
+    margin: 0;
+    font-family: fantasy;
+    font-size: 30px;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./images/pexels-lina-kivaka-12238320.jpg) ;
+    background-size: 100% 200vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+}
+.toop img{
+    width: 125px;
+    height: 110px;
+    border-radius: 28px;
+    margin: 30px 30px;
+
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 35px;
+    border: 2px;
+    align-items: center;
+}
+.text ul li{
+    display: inline-block;
+    margin: 0px 15px;
+    list-style: none;
+}
+.text ul li:nth-child(2) a{
+    margin: 25px;
+}
+.text ul li a{
+    font-size: 20px;
+    font-family: serif;
+    color: white;
+    text-decoration: none;
+}
+.text ul li a:hover{
+    color: green;
+}
+.text ul li:last-child a{
+    color: white;
+}
+button{
+    border: 2px solid green;
+    background-color: transparent;
+    height: 30px;
+    padding: 4px;
+    border-radius: 25px;
+    width: 100px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+button:hover {
+    background-color: green;
+    border: none;
+    transition: 0.5s;
+    color:white;
+    transform: scale(1.2);
+}
+button:hover a{
+    color :white;
+} */
+.slider{
+    width: 100%;
+    height:100vh;
+    margin: 100px auto;
+    animation: slide 10s infinite
+}
+@keyframes slide{
+    from{
+        background:url(./images/pexels-leon-macapagal-13398530.jpg) ;
+    }
+    to{
+        background: url(./images/pexels-salma-smida-1426480.jpg);
+    }
+    to{
+        background: url(./images/pexels-lina-kivaka-12238320.jpg);
+    }
+    to{
+        background: url(./images/pexels-lina-kivaka-3639625.jpg);
+    }
+}
+
